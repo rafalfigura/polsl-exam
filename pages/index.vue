@@ -1,18 +1,9 @@
 <template>
-  <div>
-    Questions:
-
-  </div>
+    <NuxtLink to="/inzynier">Inzynier</NuxtLink>
 </template>
 
-<script>
-export default {
+<script setup lang="ts">
+import allQuestions from '../questions'
 
-}
+const keys = Object.keys(allQuestions)
 </script>
-
-<style>
-.red {
-  color: red;
-}
-</style>
