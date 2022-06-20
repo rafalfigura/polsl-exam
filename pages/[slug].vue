@@ -11,11 +11,11 @@
       <p v-if="failed" style="color: red">Zła odpowiedź</p>
     </div>
 
-    <div style="margin-left: auto;margin-right: auto;">
-      <div @click="skipNext()" style="padding-top:10px; cursor: pointer; background: beige; margin: 5px; max-width: 500px; ">Pomiń</div>
+    <div style="display: flex; flex-direction: column; justify-content: space-around;">
+      <div @click="skipNext()" style="padding-top:10px; cursor: pointer; background: burlywood; margin-bot: 15px; margin: 10px;">Pomiń</div>
       <div
-          style="display: flex; flex-direction: column; max-width: 500px; padding: 5px; margin-top: 15px;">
-        <div style="padding-top:10px; cursor: pointer; background: beige; margin: 5px;"
+          style="display: flex; flex-direction: column; ">
+        <div style="padding-top:10px; cursor: pointer; background: beige; margin: 10px; margin: 10px;"
              v-for="item in question.answers" @click="checkValue(item)">
           {{ item.answer }}
         </div>
