@@ -16,7 +16,7 @@ export function getInz() {
         answers: answers.map(a => ({
           answer: a.slice(2),
           valid: a?.toLowerCase().startsWith(answer.toLowerCase())
-        })).filter(a => a.answer.length > 3)
+        })).filter(a => a.answer.length > 1)
       })
       chunks.push(chunk);
     }catch (e) {
