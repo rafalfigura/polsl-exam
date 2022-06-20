@@ -11,8 +11,8 @@
       <p v-if="failed" style="color: red">Zła odpowiedź</p>
     </div>
 
-    <div>
-      <div @click="skipNext()" style="padding-top:10px; cursor: pointer; background: beige; margin: 5px; ">Pomiń</div>
+    <div style="margin-left: auto;margin-right: auto;">
+      <div @click="skipNext()" style="padding-top:10px; cursor: pointer; background: beige; margin: 5px; max-width: 500px; ">Pomiń</div>
       <div
           style="display: flex; flex-direction: column; max-width: 500px; padding: 5px; margin-top: 15px;">
         <div style="padding-top:10px; cursor: pointer; background: beige; margin: 5px;"
