@@ -1673,7 +1673,7 @@ B
 A. cystersi
 B. dominikanie 
 C. franciszkanie
-C
+A
 177. W którym z wymienionych miast zachował się ośmioboczny w rzucie kościół San Vitale, z mozaikami przedstawiającymi cesarza Justyniana i cesarzową Teodorę?
 A. w Rzymie
 B. w Pizie
@@ -1688,7 +1688,7 @@ B
 A. Fidiasz
 B. Mnesikles 
 C. Perykles
-B
+A
 180. Wzorcowym przykładem klasyczno gotyckiej katedry francuskiej jest katedra w: 
 A. w Barcelonie;
 B. w Reims;
