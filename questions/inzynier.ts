@@ -1,32 +1,28 @@
-export const inzynier = [
-  {
-    "question": "1. Jednym z podstawowych zadań planowania przestrzennego jest kształtowanie:",
-    "answers": [
-      {
-        "answer": "A)Struktury funkcjonalno-przestrzennej obszarów",
-        valid: true
-      },
-      {
-        "answer": "B)Struktury społeczno-gospodarczej obszarów",
-      },
-      {
-        "answer": "C)Struktury przyrodniczo-krajobrazowej obszarów",
-      }
-    ]
-  },
-  {
-    "question": "2. Korytarz ekologiczny to:",
-    "answers": [
-      {
-        "answer": "A)Obszar umożliwiający migrację roślin, zwierząt lub grzybów",
-        valid: true
-      },
-      {
-        "answer": "B)Pasmo drzew i krzewów pełniące funkcje ochronne ?",
-      },
-      {
-        "answer": "C)Przejście dla zwierzyny leśnej nad autostradą ?",
-      }
-    ]
+import {inzQuestionsBySomeoneElse} from './inz_questions'
+
+export function getInz() {
+  const questionParts = [...inzQuestionsBySomeoneElse.split(/\r?\n/)];
+  const chunks = [];
+  const questions: Question[] = [];
+
+  while (questionParts.length >= 5) {
+    const chunk = questionParts.splice(0,5);
+    const question = chunk[0];
+    const answers = [chunk[1],chunk[2],chunk[3]]
+    const answer = chunk[4]
+    try {
+      questions.push({
+        question: question,
+        answers: answers.map(a => ({
+          answer: a.slice(2),
+          valid: a?.toLowerCase().startsWith(answer.toLowerCase())
+        })).filter(a => a.answer.length > 3)
+      })
+      chunks.push(chunk);
+    }catch (e) {
+      console.log(e);
+      console.log({chunk, question, answers, answer})
+    }
   }
-]
+  return questions;
+}

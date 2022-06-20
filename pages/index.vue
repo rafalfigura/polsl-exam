@@ -4,6 +4,6 @@
 
 <script setup lang="ts">
 import allQuestions from '../questions'
-
 const keys = Object.keys(allQuestions)
+
 </script>

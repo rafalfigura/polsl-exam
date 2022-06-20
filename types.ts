@@ -6,5 +6,4 @@ interface Question {
     "question": string
     "answers": Answer[]
 }
-type QuestionList = Question[]
 

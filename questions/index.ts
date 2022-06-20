@@ -1,5 +1,5 @@
-import { inzynier } from './inzynier'
+import {getInz} from './inzynier'
 const allQuestions = {
-    inzynier
+    inzynier: getInz()
 }
 export default  allQuestions
