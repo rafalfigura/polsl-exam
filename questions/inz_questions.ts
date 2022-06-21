@@ -503,7 +503,7 @@ Bufor ciepła w budynku energooszczędnym to:
 a. magazyn ciepła,
 b. wydzielona strefa budynku, która nie jest bezpośrednio ogrzewana przez urządzenia grzewcze,
 c. strefa odizolowana od pomieszczenia grzewczego.
-B
+A
 Największą skuteczność przy ograniczaniu zysków ciepła wykazują osłony zamontowane:
 a. przed przegrodą (na zewnątrz),
 b. wewnątrz struktury przegrody,
@@ -920,7 +920,7 @@ b) terytorializmu, prywatności i bezpieczeństwa
 c) sprawnego znajdywania drogi do celu
 B
 Superjednostka w Katowicach to dzieło:
-a)H.  Buszki i A. Franty
+a) H.  Buszki i A. Franty
 b) M. Króla
 c) J. Jareckiego
 B
@@ -1344,11 +1344,6 @@ a. 900m2
 b. 850m2
 c. 750 m2
 C
-Super jednostka w Katowicach to dzieło:
-a. H. Buszki i A. Franty
-b. M. Króla
-c. J. Jareckiego
-B
 ZL dla niepełnosprawnych
 A)  ZL II 
 B) Zl I
@@ -1718,7 +1713,7 @@ Popularnym czasopismem specjalistycznym propagującym polski design jest magazyn
 A. Archivolta
 B. 2+3D
 C. Art&Business
-A
+B
 Jakie farby stosuje się do malowania szyb witrażowych, jaka jest i od czego zależy temperatura ich wypalania:
 A. akrylowe
 B. olejne
